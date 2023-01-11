@@ -19,11 +19,13 @@ function verificar() {
                 img.setAttribute('src', 'bebemenino.jpg')
                 img.style.width = '280px'
                 img.style.height = '280px'
+                genero = "menino"
             } else if (idade < 21) {
                 //jovem
-                img.style.width = '210px'
+                img.style.width = '240px'
                 img.style.height = '260px'
                 img.setAttribute('src', 'menino.jpg')
+                genero = 'jovem'
             } else if (idade < 50){
                 //Adulto
                 img.style.width = '280px'
@@ -34,6 +36,7 @@ function verificar() {
                 img.style.width = '280px'
                 img.style.height = '280px'
                 img.setAttribute('src', 'velho.jpg')
+                genero = "idoso"
             }
 
 
@@ -44,11 +47,13 @@ function verificar() {
                 img.style.width = '250px'
                 img.style.height = '280px'
                 img.setAttribute('src', 'bebemenina.jpg')
+                genero = "menina"
             } else if (idade < 21) {
                 //jovem
                 img.style.width = '250px'
                 img.style.height = '280px'
                 img.setAttribute('src', 'menina.jpg')
+                genero = "jovem"
             } else if (idade < 50){
                 //Adulto
                 img.style.width = '280px'
@@ -59,6 +64,7 @@ function verificar() {
                 img.style.width = '280px'
                 img.style.height = '280px'
                 img.setAttribute('src', 'velha.jpg')
+                genero = "idosa"
             }
         }
         img.style.marginTop = '10px'
